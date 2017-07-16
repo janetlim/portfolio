@@ -1,0 +1,17 @@
+ body{
+      background: url("../img/cover.jpg") center center fixed no-repeat; 
+        background-size: cover;
+    }
+    
+.header{
+    font-size: 12pt;
+    text-align: right;
+    margin-right: 1.5em;
+}
+
+.header > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: candara;
+    padding: .5em;
+}
