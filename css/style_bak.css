@@ -22,26 +22,30 @@
 }
 .photo{
    text-align: center;
-       margin: 6em 0em 0em 0em;
+       margin: 3em 0em 0em 0em;
 }
-
+.photomy{
+    width: 8%;
+}
 .cnname{
-    font-size: 17pt;
+    font-size: 12pt;
     font-family: 微軟正黑體;
-    margin: .6em 2em 0em 2em;
+    margin: .4em 2em 0em 2em;
 }
 .enname{
-    font-size: 30pt;
+    font-size: 20pt;
     font-weight: bold;
     font-family: Tahoma;
-    margin: 0em 2em 1.2em 2em;
+    margin: 0em 2em .6em 2em;
 }
 .mail{
+    font-size: 8pt;
     font-family: "candara";
 }    
 
 
 .phone{
+    font-size: 8pt;
     font-family: "candara";
 }
 
@@ -50,21 +54,5 @@
     width: 30px;
     height: 1px;
     display: inline-block;
-    margin: 0em 2em .6em 2em;
+    margin: 0em 2em .2em 2em;
 }
-
-.description{
-    text-align: center;
-    margin: 4em 0 2em 0;
-}
-
-.description > .border{
-    display: inline-block;
-    text-align: left;
-    margin: 0 5em;
-}
-.description > .border> .line{
-    border-top: 1px solid #BF0000;
-    width: 30px;
-    height: 1px;
-    display: inline-block;
