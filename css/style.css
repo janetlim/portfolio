@@ -278,14 +278,50 @@ main {
 }
 */
 
-  .sq1 {
-      width: 255px;
-      height: 453px;
+.oneline{
+    display: block;
+}
+    .sq6 {
+      width: 688.5px;
+      height: 344.5px;
       border: 1px solid #999;
       position: relative;
       cursor: pointer;
       overflow: hidden;
-      margin: 15px;
+      margin: 9px;
+      display: inline-block;
+  }
+  .sq6:hover .clip {
+      -webkit-clip-path: circle(990px at 80% 20%);
+      -moz-clip-path: circle(990px at 80% 20%);
+      clip-path: circle(990px at 80% 20%);
+  }   
+   
+  
+  .sq8 {
+      width: 193.5px;
+      height: 344.5px;
+      border: 1px solid #999;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+      margin: 9px;
+      display: inline-block;
+  }
+  .sq8:hover .clip {
+      -webkit-clip-path: circle(450px at 80% 20%);
+      -moz-clip-path: circle(450px at 80% 20%);
+      clip-path: circle(450px at 80% 20%);
+  }
+
+  .sq1 {
+      width: 126.4px;
+      height: 225px;
+      border: 1px solid #999;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+      margin: 9px;
       display: inline-block;
   }
   .sq1:hover .clip {
@@ -294,14 +330,96 @@ main {
       clip-path: circle(450px at 80% 20%);
   }
 
-.sq2 {
-      width: 255px;
-      height: 207px;
+  .sq3-1 {
+      width: 602.8px;
+      height: 225px;
       border: 1px solid #999;
       position: relative;
       cursor: pointer;
       overflow: hidden;
-      margin: 15px;
+      margin: 9px;
+      display: inline-block;
+  }
+  .sq3-1:hover .clip {
+      -webkit-clip-path: circle(990px at 80% 20%);
+      -moz-clip-path: circle(990px at 80% 20%);
+      clip-path: circle(990px at 80% 20%);
+  }
+    .sq3-2 {
+      width: 594.1px;
+      height: 221.6px;
+      border: 1px solid #999;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+      margin: 9px;
+      display: inline-block;
+  }
+  .sq3-2:hover .clip {
+      -webkit-clip-path: circle(990px at 80% 20%);
+      -moz-clip-path: circle(990px at 80% 20%);
+      clip-path: circle(990px at 80% 20%);
+  }
+
+  .sq9 {
+      width: 284.4px;
+      height: 221.6px;
+      border: 1px solid #999;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+      margin: 9px;
+      display: inline-block;
+  }
+  .sq9:hover .clip {
+      -webkit-clip-path: circle(450px at 80% 20%);
+      -moz-clip-path: circle(450px at 80% 20%);
+      clip-path: circle(450px at 80% 20%);
+  }
+.fourline{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+   .sq5 {
+      width: 323px;
+      height: 173.5px;
+      border: 1px solid #999;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+      margin: 9px;
+      display: inline-block;
+  }
+  .sq5:hover .clip {
+      -webkit-clip-path: circle(450px at 80% 20%);
+      -moz-clip-path: circle(450px at 80% 20%);
+      clip-path: circle(450px at 80% 20%);
+  }    
+
+  .sq4 {
+      width: 322px;
+      height: 173.5px;
+      border: 1px solid #999;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+      margin: 9px;
+      display: inline-block;
+  }
+  .sq4:hover .clip {
+      -webkit-clip-path: circle(450px at 80% 20%);
+      -moz-clip-path: circle(450px at 80% 20%);
+      clip-path: circle(450px at 80% 20%);
+  }     
+  .sq2 {
+      width: 213.2px;
+      height: 173.5px;
+      border: 1px solid #999;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+      margin: 9px;
       display: inline-block;
   }
   .sq2:hover .clip {
@@ -310,23 +428,23 @@ main {
       clip-path: circle(450px at 80% 20%);
   }
 
-  
-.sq3 {
-      width: 949px;
-      height: 354px;
+/*
+   .sq7 {
+      width: 208px;
+      height: 180px;
       border: 1px solid #999;
       position: relative;
       cursor: pointer;
       overflow: hidden;
-      margin: 15px;
+      margin: 9px;
       display: inline-block;
   }
-  .sq3:hover .clip {
+  .sq7:hover .clip {
       -webkit-clip-path: circle(990px at 80% 20%);
       -moz-clip-path: circle(990px at 80% 20%);
       clip-path: circle(990px at 80% 20%);
-  }
-
+  }     
+*/
   .clip {
       position: absolute;
       width: 100%;
@@ -334,19 +452,18 @@ main {
       top: 0;
       left: 0;
       right: 0;
-      background-image: url(/uploads/150101/fire_line.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       background-color: white;
-      -webkit-clip-path: circle(40px at 80% 20%);
-      -moz-clip-path: circle(40px at 80% 20%);
-      clip-path: circle(40px at 80% 20%);
+      -webkit-clip-path: circle(40px at 50% 50%);
+      -moz-clip-path: line(40px at 50% 50%);
+      clip-path: circle(45px at 50% 50%);
       -webkit-transition: 300ms;
       transition: 300ms;
   }
   .circle {
-      background-color: transparent;
+      
   }
 
 .works-bg2{
