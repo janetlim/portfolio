@@ -362,7 +362,7 @@ main {
     display: inline-block;
     text-align: center;
     margin: 0, auto;
-    padding:2.2em 0 0 0;
+    padding:2.5em 0 0 0;
     position: absolute;
     float: left;
 }
@@ -390,24 +390,19 @@ main {
     text-align: center;
 }
 .about-line{
-    border-top: 1px solid #848484;
-    width: 23px;
-    height: 1px;
+    border-top: 1px solid #545249;
+    width: 18px;
     display: inline-block;
-    margin: 0.3em -1.5em 0.5em 0;
+    margin: -.2em auto -.2em 1.3em;
+  
 }
 .myemail{
     font-size: 9pt;
     color: #545249;
     display: block;
-    margin: .8em auto 0 auto;
+    margin: .5em auto 0 auto;
 }
-.myphone{
-    font-size: 9pt;
-    color: #545249;
-    display: block;
-    margin: 0;
-}
+
 
 .contact .contact-form {
     display: inline-block;
