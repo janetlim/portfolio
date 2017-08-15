@@ -375,12 +375,6 @@ main {
     width: 18%;
     padding: 1.3em 0 0 1.5em;
 }
-.enname{
-    font-size: 10pt;
-    font-weight:bold;
-    color: #545249;
-    margin: 0 0 .3em -.7em;
-}
 .cnname2{
     font-size: 16pt;
     font-weight:bold;
@@ -389,11 +383,18 @@ main {
     margin: 1.3em 0 .1em 1em;
     text-align: center;
 }
+.enname{
+    font-size: 10pt;
+    font-weight:bold;
+    color: #545249;
+    margin: 0 0 .8em -.7em;
+}
+
 .about-line{
     border-top: 1px solid #545249;
     width: 18px;
     display: inline-block;
-    margin: -.2em auto -.2em 1.3em;
+    margin: -.2em auto -.1em 1.3em;
   
 }
 .myemail{
